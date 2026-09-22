@@ -1,0 +1,9 @@
+let arr = [3, 7, 9, 1]
+let min = arr[0]
+
+for (let i = 1 ; i < arr.length-1 ; i++){
+    if(arr[i] < min){
+        min = arr[i]
+    }
+}
+console.log(min)
